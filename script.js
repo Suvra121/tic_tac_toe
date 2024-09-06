@@ -77,8 +77,8 @@ let n = document.querySelector("#new");
 n.addEventListener("click",()=>{
     for(let b of boxes)
         {
-            b.innerText="";
             b.disabled = false;
+            b.innerText="";
             head.style.display="none";
             game.style.marginTop="40px";
         }
